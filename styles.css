@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Fjalla One", sans-serif;
+  background: linear-gradient(to bottom, #000000 0%, #171717 100%);
+}
+
+.container {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  max-width: 225px;
+}
+
+.button {
+  float: left;
+  position: relative;
+  bottom: -65px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-10deg);
+  color: #e55643;
+  text-transform: uppercase;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+}
+.button span {
+  transform: skew(-10deg);
+  display: block;
+  float: left;
+  text-shadow: #533d4a 1px 1px, #533d4a 2px 2px, #533d4a 3px 3px, #533d4a 4px 4px;
+}
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 80px;
+  margin: 0;
+  line-height: 47px;
+  letter-spacing: 2px;
+}
+h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 0;
+  line-height: 48px;
+  letter-spacing: 5px;
+}
+h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 0;
+  line-height: 48px;
+  letter-spacing: 5px;
+}
+.rainbow-lr {
+  background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet);
+  color:transparent;
+  background-clip: text;
+}
+.rainbow-td {
+  background: linear-gradient(to bottom, red, orange , yellow, green, cyan, blue, violet);
+  color:transparent;
+  background-clip: text;
+}
+.title {
+  transform: translateX(-50%) rotate(-10deg);
+  display: block;
+  float: left;
+  left: 50%;
+  position: relative;
+}
+.title span {
+  transform: skew(-10deg);
+  display: block;
+  float: left;
+  text-shadow: #696868 1px 2px, #696868 2px 2px, #696868 3px 3px, #696868 4px 4px, #696868 5px 5px, #696868 6px 6px;
+  min-width: 10px;
+  min-height: 10px;
+  position: relative;
+}
+
+.title:nth-child(1) {
+    
+  color: #FFFF;
+}
+.title:nth-child(2) {
+  color: #FFFF;
+}
+.title:nth-child(3) {
+  color: #FFFF;
+}
+.title:nth-child(4) {
+  color: #FFFF;
+}
